@@ -1,0 +1,101 @@
+*{
+    margin: 0 20px 0 20px;
+    padding: 10px;
+  }
+  .table-of-content{
+    background-color: #009879;
+    color: black;
+    padding: auto;
+    margin: 5px 110px 5px 110px ;
+  }
+  .table-of-content ol{
+    margin: 20px 40px 20px 40px;
+    padding: 5px;
+  }
+  
+  .table-box{
+    margin: 50px auto;
+  }
+  .table-1-row1{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: #009879;
+    padding: 12px 0;
+    color: black;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+  }
+  .table-1-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: black;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+  }
+  .table-1-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 2px 0;
+    border-right: 1px solid ;
+    vertical-align: middle;
+  }
+  
+   .table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: gray;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+  }
+  .table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid ;
+    vertical-align: middle;
+  } 
+  .last-cell{
+    border-right: none;
+  }
+.table-2{
+    border-right: 1px solid;
+    margin: 5px 10px 0 115px;
+    font-size: 1em;
+    min-width: 80%;
+    height: 80%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+    font-size-adjust: auto;
+    background-color: transparent;
+  }
+  .table-2 thead tr{
+    margin: 30%;
+    padding: 50%;
+    background-color: #009879;
+    color: #ffffff;
+    height: 80%;
+    text-align: middle;
+    font-weight: bold;
+    font-size: 1em;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+  }
+  .table-2 tbody tr td{
+    height:40%;
+    padding: 18px;
+  }
+  .table-2 thead tr th{
+    padding: 14px;
+  }
